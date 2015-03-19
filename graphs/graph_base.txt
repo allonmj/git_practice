@@ -17,7 +17,7 @@ class Graph implements Drawable{
 	}
 	
 	public void goodFunction2(){
-	
+		drawRect();
 	}
 	
 	public void goodFunction3(){
