@@ -1,4 +1,7 @@
 public class CrazyFeature{
 
-
+	public CrazyFeature(){
+		int i = 0;
+		i = i / 0;
+	}
 }
