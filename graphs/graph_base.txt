@@ -13,7 +13,7 @@ class Graph implements Drawable{
 	}
 	
 	public void goodFunction(){
-	
+		drawLine();
 	}
 	
 	public void goodFunction2(){
@@ -21,7 +21,7 @@ class Graph implements Drawable{
 	}
 	
 	public void goodFunction3(){
-	
+		drawCircle();
 	}
 	
 	public void goodFunction4(){
