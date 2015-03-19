@@ -15,4 +15,8 @@ class Graph implements Drawable{
 	public void goodFunction(){
 	
 	}
+	
+	public void goodFunction2(){
+	
+	}
 }
