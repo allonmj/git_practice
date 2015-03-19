@@ -11,8 +11,4 @@ class Graph implements Drawable{
 	public void draw(){
 		
 	}
-	
-	private void bug(){
-	
-	}
 }
