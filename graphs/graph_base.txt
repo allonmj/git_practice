@@ -23,4 +23,8 @@ class Graph implements Drawable{
 	public void bug(){
 	
 	}
+	
+	public void goodFunction3(){
+	
+	}
 }
