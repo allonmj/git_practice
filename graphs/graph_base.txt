@@ -1,0 +1,14 @@
+class Graph implements Drawable{
+	private int width, height;
+	private int xMin, xMax;
+	private int yMin, yMax;
+
+	public Graph(){
+		
+	}
+
+	@Override
+	public void draw(){
+		
+	}
+}
