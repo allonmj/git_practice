@@ -9,19 +9,6 @@ class Graph implements Drawable{
 
 	@Override
 	public void draw(){
-		drawCrazily();
-	}
-	
-	private void drawCrazily(){
-		for (int i = 0; i< height; i++){
-			for (int j = 0; j < width; j++){
-				paintCrazily(i,j);
-			}
-		}
-	}
-	
-	private void paintCrazily(int i, int j){
-		paintBlue(i);
-		paintRed(j);
+		
 	}
 }
