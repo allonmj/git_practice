@@ -22,6 +22,14 @@ public class Music{
 		stopPlayback();
 	}
 	
+	public void mute(){
+		playAt(0, playbackSpeed);
+	}
+	
+	public void unMute(){
+		playAt(volume, playbackSpeed);
+	}
+	
 	private void playAt(int volume, int playbackSpeed){
 		//TODO
 	}
