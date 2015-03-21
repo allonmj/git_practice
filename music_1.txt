@@ -1,19 +1,37 @@
 public class Music{
 
-	public Music(){
-	
+	protected int volume = 0;
+	protected int playbackSpeed = 1.0f;
+
+	public Music(int volume, int playbackSpeed){
+		this.volume = volume;
+		this.playbackSpeed = playbackSpeed;
 	}
 	
 	public void play(){
-	
+		stopPlayback();
+		playAt(volume, playbackSpeed);
 	}
 	
 	public void pause(){
-	
+		saveState();
+		stopPlayback();
 	}
 	
 	public void stop(){
+		stopPlayback();
+	}
 	
+	private void playAt(int volume, int playbackSpeed){
+		//TODO
+	}
+	
+	private void saveState(){
+		//TODO
+	}
+	
+	private void stopPlayback(){
+		//TODO
 	}
 
 }
