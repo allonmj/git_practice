@@ -2,10 +2,12 @@ public class Music{
 
 	protected int volume = 0;
 	protected int playbackSpeed = 1.0f;
+	protected Database database;
 
-	public Music(int volume, int playbackSpeed){
+	public Music(Database database, int volume, int playbackSpeed){
 		this.volume = volume;
 		this.playbackSpeed = playbackSpeed;
+		this.database = database;
 	}
 	
 	public void play(){
@@ -44,6 +46,11 @@ public class Music{
 	
 	private void stopPlayback(){
 		//TODO
+	}
+	
+	public Music search(String query){
+		Music music = transform(database.search(query));
+		return music;
 	}
 
 }
