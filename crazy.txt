@@ -2,7 +2,6 @@ public void crazy(){
 
 }
 
-<<<<<<< HEAD
 private static final int K_HEY = 200;
 private static final int K_THERE = 2;
 
