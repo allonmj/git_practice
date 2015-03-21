@@ -30,6 +30,10 @@ public class Music{
 		playAt(volume, playbackSpeed);
 	}
 	
+	public void shuffle(){
+		//TODO
+	}
+	
 	private void playAt(int volume, int playbackSpeed){
 		//TODO
 	}
